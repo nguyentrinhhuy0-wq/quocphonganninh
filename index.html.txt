@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quốc Phòng & An Ninh Việt Nam</title>
+    <style>
+        /* Thiết kế tổng thể */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Thanh tiêu đề (Header) */
+        header {
+            background-color: #a50000; /* Màu đỏ đô trang nghiêm */
+            color: #ffd700; /* Màu vàng sao */
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #ffd700;
+        }
+
+        /* Thân trang web */
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Phần hình ảnh */
+        .image-container {
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 3px solid #4b5320; /* Màu xanh quân đội */
+        }
+
+        /* Nội dung bài viết */
+        h2 {
+            color: #4b5320;
+            border-left: 5px solid #a50000;
+            padding-left: 10px;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        /* Nút tương tác */
+        .btn-action {
+            display: inline-block;
+            background-color: #4b5320;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-action:hover {
+            background-color: #a50000;
+        }
+
+        /* Chân trang (Footer) */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #ccc;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>QUỐC PHÒNG VÀ AN NINH</h1>
+        <p>Vững mạnh toàn diện - Bảo vệ Tổ quốc</p>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1590236142646-778912e79603?q=80&w=1200" alt="Quân đội Nhân dân Việt Nam">
+            <p style="font-style: italic; font-size: 0.9em; color: #666;">Hình ảnh minh họa sức mạnh quốc phòng (Nguồn: Unsplash)</p>
+        </div>
+
+        <h2>Sứ mệnh và Tầm nhìn</h2>
+        <p>
+            Quốc phòng và An ninh là nhiệm vụ trọng yếu, thường xuyên của Đảng, Nhà nước và toàn dân. 
+            Xây dựng nền quốc phòng toàn dân vững mạnh, gắn thế trận quốc phòng toàn dân với thế trận an ninh nhân dân vững chắc là nền tảng cốt lõi để bảo vệ độc lập, chủ quyền và toàn vẹn lãnh thổ.
+        </p>
+
+        <h2>Nhiệm vụ trọng tâm</h2>
+        <ul>
+            <li>Xây dựng quân đội tinh nhuệ, chính quy, hiện đại.</li>
+            <li>Giữ vững an ninh chính trị và trật tự an toàn xã hội.</li>
+            <li>Sẵn sàng ứng phó với các thách thức an ninh phi truyền thống.</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <button class="btn-action" onclick="timHieuThem()">Tìm hiểu thêm về Luật Quốc phòng</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Trang tin tức Quốc phòng - Thiết kế bởi Lập trình viên tương lai</p>
+    </footer>
+
+    <script>
+        function timHieuThem() {
+            alert("Bạn đang được chuyển hướng đến trang thông tin chính thống về Quốc phòng & An ninh!");
+        }
+    </script>
+
+</body>
+</html>
